@@ -1,0 +1,94 @@
+/* Global */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+main{
+  background-image: url(../img/trenitalia.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* /Global */
+
+/* Main */
+
+div.title{
+  padding: 30px 0px 40px 0px;
+  color: rgb(9, 163, 9);
+  text-decoration: underline;
+}
+
+div.sconti{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+}
+
+div.sconti h2,
+div.ricarica h3{
+  text-decoration: underline;
+  color:rgba(9, 163, 9);
+}
+
+div.sconti ul{
+  margin: auto;
+  width: 30%;
+  margin-top: 50px;
+  text-align: left;
+  color: rgb(236, 232, 232);
+  background-color: rgba(9, 163, 9, 0.8);
+  border-radius: 10px;
+}
+
+div.acquisto{
+  margin-top: 30px;
+}
+
+div.card img{
+  border-radius: 10px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+div.card{
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+a.btn{
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(9, 163, 9);
+}
+
+.btn:hover{
+  color: rgb(236, 232, 232);
+  outline: 2px solid rgb(236, 232, 232);
+  outline-offset: -5px;
+}
+
+div.scontrino{
+  background-color: rgb(9, 163, 9, 0.8);
+  color: white;
+  font-weight: bold;
+  height: 25px;
+  width: 60%;
+  margin: auto; 
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+}
+/* /Main */
+
