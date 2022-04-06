@@ -46,7 +46,10 @@ if(age > 65){
 
 const prezzoFinale =(prezzoPieno - sconto).toFixed(2);
 
-document.getElementById('stampa').innerHTML +=prezzoFinale;
 
-console.log(prezzoPieno);
-console.log(prezzoFinale);
+if(isNaN(prezzoFinale)){
+  document.getElementById('stampa').innerHTML = 'io ti avevo detto di inserire un numero (ツ)!';
+}else{
+  document.getElementById('stampa').innerHTML += prezzoFinale;
+}
+
